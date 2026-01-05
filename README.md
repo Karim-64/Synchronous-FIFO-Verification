@@ -12,8 +12,8 @@ The project involves creating a robust verification plan, implementing a self-ch
 
 ## 🛠️ Design Specifications
 * **Type:** Synchronous FIFO
-* [cite_start]**Width:** 16-bit [cite: 6996]
-* [cite_start]**Depth:** 8 locations [cite: 6996]
+*Width:** 16-bit [cite: 6996]
+*Depth:** 8 locations [cite: 6996]
 * **Interface Signals:**
     * **Inputs:** `clk`, `rst_n`, `wr_en`, `rd_en`, `data_in`
     * **Outputs:** `data_out`, `full`, `empty`, `almostfull`, `almostempty`, `overflow`, `underflow`, `wr_ack`
